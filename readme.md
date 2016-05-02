@@ -1,0 +1,3 @@
+This repo contains code for downloading current and historical stock data from yahoo finance, processing it into a format acceptable by a specified model, running the model, and generating stock picks for each day.
+
+The trained model itself is not included, but the neural network structure and dataformat are both included. The network takes about 24 hours to train on a GTX 980 Ti and, ignoring spread and commissions, achieves great results on test data. However, it's alpha (edge) generally results from picking penny stocks with high spreads, and it was not as performant in real life as I would have wanted.
